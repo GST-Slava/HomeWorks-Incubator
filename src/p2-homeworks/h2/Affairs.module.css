@@ -1,3 +1,87 @@
-.someClass {
+.affair{
+    display: flex;
+}
 
+.item{
+    margin: 10px;
+    width: 103px;
+}
+
+.high {
+    color: red;
+}
+
+.middle {
+    color: gold;
+}
+
+.low {
+    color: lime;
+}
+
+.buttonDeleteAffairs {
+    margin-left: 12px;
+    margin-bottom: 12px;
+    display: inline-block;
+    padding: 5px 12px 1px;
+    font-size: 10px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #f7f8f8;
+    background-color: #4d4f50;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 1px #565656;
+}
+
+.buttonDeleteAffairs:hover {
+    background-color: #ce0707
+}
+
+.buttonDeleteAffairs:active {
+    background-color: #02b7f3;
+    box-shadow: 0 3px #666;
+    transform: translateY(1px);
+}
+
+.buttonFilter {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #4d4f50;
+    border: none;
+    color: #f8773f;
+    text-align: center;
+    font-size: 12px;
+    padding: 8px;
+    width: 70px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 3px;
+}
+
+.buttonFilter span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.3s;
+}
+
+.buttonFilter span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.1s;
+}
+
+.buttonFilter:hover span {
+    padding-right: 12px;
+}
+
+.buttonFilter:hover span:after {
+    opacity: 1;
+    right: 0;
 }
