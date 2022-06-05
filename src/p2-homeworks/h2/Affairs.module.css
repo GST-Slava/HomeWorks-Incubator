@@ -19,6 +19,7 @@
     color: lime;
 }
 
+
 .buttonDeleteAffairs {
     margin-left: 12px;
     margin-bottom: 12px;
@@ -60,6 +61,7 @@
     cursor: pointer;
     margin: 3px;
 }
+
 
 .buttonFilter span {
     cursor: pointer;
