@@ -1,7 +1,83 @@
 .default {
+    border-radius: 4px;
+    background-color: #4d4f50;
+    border: none;
+    color: #10c4e5;
+    text-align: center;
+    font-size: 12px;
+    padding: 8px;
+    width: 70px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 3px;
+    display: inline-block;
+    position: relative;
+}
 
+.default:hover {
+    padding-right: 12px;
+}
+
+.default:after {
+    content: '>>';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.1s;
+}
+
+.default:hover::after {
+    opacity: 1;
+    right: 0;
 }
 
 .red {
-    background: red;
+    color: red;
+    border-radius: 4px;
+    background-color: #4d4f50;
+    border: none;
+    text-align: center;
+    font-size: 12px;
+    padding: 8px;
+    width: 70px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 3px;
+    display: inline-block;
+    position: relative;
 }
+
+.red:hover {
+    padding-right: 12px;
+}
+
+.red:after {
+    content: '>>';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.1s;
+}
+
+.red:hover::after {
+    opacity: 1;
+    right: 0;
+}
+
+
+.button:disabled {
+    color: rgba(56, 56, 59, 0.33);
+    cursor: auto;
+    transition: unset;
+}
+
+.button:disabled::after {
+    z-index: -1;
+}
+
+.button:disabled::before {
+    z-index: -1;
+}
+
