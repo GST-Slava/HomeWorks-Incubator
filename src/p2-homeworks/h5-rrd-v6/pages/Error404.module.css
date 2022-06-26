@@ -1,0 +1,16 @@
+.notfound {
+    text-align: center;
+    color: red;
+    font-size: 700%;
+}
+
+.textInfo {
+    text-align: center;
+    font-size: 300%;
+}
+
+.font {
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+}
