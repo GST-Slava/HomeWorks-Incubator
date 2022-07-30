@@ -1,0 +1,33 @@
+.select {
+    width: 100px;
+    padding: 5px;
+    padding-right: 30px;
+
+    cursor: pointer;
+    background-color: gold;
+    border: 2px inset blue;
+    color: blueviolet;
+}
+
+.select:focus {
+    outline: none;
+    border: gold solid 2px;
+}
+
+.option {
+    color: blueviolet;
+    background: gold;
+}
+
+.option:checked {
+    background: darkviolet;
+    color: greenyellow;
+}
+
+.option:hover {
+    box-shadow: 0 0 10px 100px gold inset;
+    transition: all .2s ease-in-out;
+    background: red;
+}
+
+
