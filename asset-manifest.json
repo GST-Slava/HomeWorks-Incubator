@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/HomeWorks-Incubator/static/css/main.65ec04dd.css",
-    "main.js": "/HomeWorks-Incubator/static/js/main.e2e004f3.js",
+    "main.css": "/HomeWorks-Incubator/static/css/main.918aa4ee.css",
+    "main.js": "/HomeWorks-Incubator/static/js/main.26f0cd5d.js",
     "static/media/bodybackground1.jpg": "/HomeWorks-Incubator/static/media/bodybackground1.9f650bb64fae96b78d26.jpg",
     "static/media/back1.png": "/HomeWorks-Incubator/static/media/back1.cf34174b47f4106a8513.png",
     "static/media/loader.gif": "/HomeWorks-Incubator/static/media/loader.d83f5ecf86aa7f819c7b.gif",
     "index.html": "/HomeWorks-Incubator/index.html",
-    "main.65ec04dd.css.map": "/HomeWorks-Incubator/static/css/main.65ec04dd.css.map",
-    "main.e2e004f3.js.map": "/HomeWorks-Incubator/static/js/main.e2e004f3.js.map"
+    "main.918aa4ee.css.map": "/HomeWorks-Incubator/static/css/main.918aa4ee.css.map",
+    "main.26f0cd5d.js.map": "/HomeWorks-Incubator/static/js/main.26f0cd5d.js.map"
   },
   "entrypoints": [
-    "static/css/main.65ec04dd.css",
-    "static/js/main.e2e004f3.js"
+    "static/css/main.918aa4ee.css",
+    "static/js/main.26f0cd5d.js"
   ]
 }
